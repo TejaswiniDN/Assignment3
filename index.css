@@ -1,0 +1,72 @@
+
+*{
+  text-align: center;
+  font-size: 18px ;
+  
+  }
+#theform {
+  background-image: url('https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
+  background-repeat: no-repeat;
+align-content: flex-start;
+border-radius: 5px;
+background-color:black;
+/*padding-right: 400px;
+padding-left: 400px;*/
+font-size : medium;
+font-style: oblique;
+font-family : Arial, Helvetica, sans-serif; 
+}
+#fill{ 
+border-color: yellow;
+border-radius: 10px;
+ padding-left:20% ;
+ padding-right: 20%;
+
+  
+}
+
+#addr{
+  width:300px;
+  height: 100px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  columns: rgb(180,174,170);
+}
+#pass,#fname,#pno,#email,#dob{
+  columns: rgb(180, 174, 170);
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;
+}  
+#disable{
+  border-color:blueviolet;
+}
+h2{
+  size: 20px;
+  color:red;
+} 
+#note{
+  size:5px;
+}
+label{
+  align-content: flex-start;
+  color:green;
+  font-size: medium;
+  font-style: italic;
+  
+}
+
+#submit{
+  
+  background-color:rgb(6, 224, 253);
+  color:black;
+  height: 40px;
+  width:150px;
+  border-radius :4px;
+}
+
+
